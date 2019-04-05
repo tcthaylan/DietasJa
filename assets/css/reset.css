@@ -12,7 +12,3 @@ body {
 ul, ol, li {
     list-style: none;
 }
-
-.travar_tela {
-    overflow-y: hidden;
-}

@@ -10,7 +10,7 @@ class HomeController extends Controller
 	{
 		$array = array();
 
-		$this->loadTemplate('home', $array);
+		$this->loadView('home', $array);
 	}
 
 }

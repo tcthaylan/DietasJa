@@ -1,4 +1,14 @@
 /*
+ * Navbar
+ * ======================================================
+*/
+.navLogo {
+    font-family: "Courgette", sans-serif;
+    font-size: 31px;
+    margin: 10px 0;
+}
+
+/*
  * Banner
  * ======================================================
 */
@@ -47,6 +57,10 @@
 */
 .whatIs {
     padding: 100px 0;
+}
+
+.whatIs-image {
+    display: none;
 }
 
 .whatIs-about > h2{
@@ -107,7 +121,7 @@
 
 .howItWorks {
     padding: 100px 0;
-    background-color: rgba(248, 8, 60, 0.8);
+    background: linear-gradient(50deg, #ff5a7efd, #ff0239cc);
     color: #fff;
 }
 
@@ -118,6 +132,10 @@
 
 .howItWorks-explain > p {
     margin-bottom: 40px;
+}
+
+.howItWorks-image {
+    display: none;
 }
 
 .howItWorks-list > li h4 {
@@ -160,11 +178,19 @@
 
 .appMobile-images {
     text-align: center;
+}
+
+.appMobile-images-svg {
+    width: 300px;
+    margin: 20px 0;
+}
+
+.appMobile-images-store {
     margin-top: 10px; 
 }
 
-.appMobile-images > img {
-    width: 160px;
+.appMobile-images-store > img {
+    width: 142px;
 }
 
 /*
@@ -180,4 +206,48 @@ footer {
 footer p {
     margin: 0;
     color: #fff;
+}
+
+/*
+ * Media Queries
+ * ====================================================================
+*/
+
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    /*=== app Mobile ===*/
+    .appMobile-images-svg {
+        width: 350px;
+    }
+
+    .appMobile-images-store {
+        margin-top: 20px;
+    }
+
+    .appMobile-images-store > img {
+        width: 170px;
+    }
+}
+
+@media (min-width: 992px) {
+    /*=== WhatIs ===*/
+    .whatIs-image {
+        display: block;
+        margin-top: 80px;
+        width: 440px;
+    }
+
+    /*=== How it works ===*/
+    .howItWorks-image {
+        display: block;
+        width: 375px;
+    }
+}
+
+@media (min-width: 1200px) {
+
 }
