@@ -1,0 +1,140 @@
+/*
+ * Navbar
+ * =============================================
+*/
+body {
+    background-color: #f2f7fa;
+}
+
+.navDashboard {
+    background: linear-gradient(50deg, #ff5a7efd, #ff0239cc);
+}
+
+.btnMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60px;
+    width: 64px;
+    padding: 10px 14px;
+}
+
+.btnMenu-line {
+    height: 3px;
+    background-color: #f2f7fa;
+    border-radius: 3px;
+}
+
+.leftMenu {
+    position: fixed;
+    top: 1;
+    left: 0;
+    height: 100%;
+    width: 280px;
+    background-color: #fff;
+    transform: translateX(-100%);
+    transition: all 700ms;
+}
+
+.menuActive {
+    transform: translateX(0);
+}
+
+.leftMenu-logo {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 32px;
+    font-family: "Courgette", sans-serif;
+    margin: 0;
+}
+
+.leftMenu-user {
+    text-align: center;
+}
+
+.leftMenu-user-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.leftMenu-user-name {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.leftMenu-list-item {
+    background-position: 24px 14px;
+    background-repeat: no-repeat;
+}
+
+.leftMenu-list-item:nth-child(1) {
+    background-image: url('../images/icons/home.png');
+    font-size: 17px;
+    border-top: 1px solid #f2f7fa;
+}
+
+.leftMenu-list-item:nth-child(2) {
+    background-image: url('../images/icons/fork.png');
+}
+
+.leftMenu-list-item:nth-child(3) {
+    background-image: url('../images/icons/bread.png');
+}
+
+.leftMenu-list-item:nth-child(4) {
+    background-image: url('../images/icons/settings.png');
+}
+
+.leftMenu-list-item > a {
+    display: block;
+    padding: 17px 58px;
+    border-bottom: 1px solid #f2f7fa;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ccc;
+}
+
+.leftMenu-list-item > a:hover {
+    text-decoration: none;
+}
+
+/*
+ * Content
+ * =============================================
+*/
+.content {
+    margin: 10px;
+}
+
+
+/*
+ * Media Queries
+ * =============================================
+*/
+
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .leftMenu {
+        top: 0;
+        transform: translateX(0);
+    }
+
+    .content {
+        margin-left: 290px;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

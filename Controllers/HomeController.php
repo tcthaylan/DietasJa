@@ -8,9 +8,9 @@ class HomeController extends Controller
 {
 	public function index()
 	{
-		$array = array();
+		$data = array();
 
-		$this->loadView('home', $array);
+		$this->loadView('home', $data);
 	}
 
 }

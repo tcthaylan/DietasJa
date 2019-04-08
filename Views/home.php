@@ -18,6 +18,7 @@
     <title>DietasJá</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -35,7 +36,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
            <div class="navButtons ml-auto">
-                <a href="" class="btn btn-primary">Entrar</a>
+                <a href="<?php echo BASE_URL.'auth/login' ?>" class="btn btn-primary">Entrar</a>
                 <a href="" class="btn btn-success">Criar Conta</a>
            </div>
         </div>
