@@ -29,7 +29,7 @@
             <a href="" class="loginContent-form-forgotPass">Esqueceu a senha?</a>
             <div class="form-group">
                 <label for="pass">Senha</label>
-                <input type="pass" id="pass" name="pass" class="form-control">
+                <input type="password" id="pass" name="pass" class="form-control">
             </div>
             <input type="submit" value="Entrar" class="btnLogin">
         </form>

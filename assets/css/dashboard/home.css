@@ -1,0 +1,137 @@
+.dashboard-title {
+    font-size: 30px;
+    margin: 10px 0;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+/*
+ * Cards Dashboard
+ * =================================
+*/ 
+
+.macronutrients-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.macronutrients-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 140px;
+    width: 90%;
+    color: #fff;
+}
+
+.macronutrients-title {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+/* First Card */
+.kcallInfo-card-number {
+    font-weight: 600;
+    margin: 0;
+}
+
+.kcallInfo-card-icon {
+    width: 55px;
+    height: 65px;
+    background-image: url('../../images/icons/target.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.kcallInfo-card-text {
+    margin: 0;
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+}
+
+.macronutrients-card:nth-child(1) {
+    color: #000;
+    border-top: 5px #f25252 solid;
+    background-color: #fff;
+}
+
+/* Other Cards */
+.macronutrients-card:nth-child(1) {
+    background-color: #f25252;
+}
+
+.macronutrients-card:nth-child(2) {
+    background-color: #f29727;
+}
+
+.macronutrients-card:nth-child(3) {
+    background-color: #6ebf6b;
+}
+
+.macronutrients-card:nth-child(4) {
+    background-color: #29b9f2;
+}
+
+.macronutrients-card > i{
+    color: #fff;
+    font-size: 60px;
+    
+}
+
+.macronutrients-card-number {
+    font-size: 45px;
+    margin-bottom: 0px; 
+}
+
+.macronutrients-card-text {
+    margin-top: -10px; 
+    margin-left: 22px;
+    font-size: 20px;
+}
+
+/*
+ * Media Queries
+ * =============================================
+*/
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    .macronutrients-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .macronutrients-card {
+        width: 46%;
+    }
+}
+
+@media (min-width: 992px) {
+    .macronutrients-card {
+        width: 22%;
+    }
+
+    .macronutrients-card > i{
+        font-size: 55px;
+    }
+
+    .macronutrients-card-number {
+        font-size: 36px;
+    }
+    
+    .macronutrients-card-text {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
