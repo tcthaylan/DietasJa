@@ -4,10 +4,14 @@
 */
 body {
     background-color: #f2f7fa;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .navDashboard {
     background: linear-gradient(50deg, #ff5a7efd, #ff0239cc);
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .btnMenu {
@@ -23,6 +27,25 @@ body {
     height: 3px;
     background-color: #f2f7fa;
     border-radius: 3px;
+}
+
+.btnExit {
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 20px;
+    border: 2px solid #f2f7fa;
+    border-radius: 20px;
+    transition: all 700ms;
+}
+
+.btnExit:hover {
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
 }
 
 .leftMenu {
@@ -106,9 +129,16 @@ body {
  * =============================================
 */
 .content {
+    margin-top: 60px;
     padding: 15px;
 }
 
+.dashboard-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.671);
+}
 
 /*
  * Media Queries

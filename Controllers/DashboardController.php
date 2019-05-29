@@ -11,4 +11,25 @@ class DashboardController extends Controller
 
         $this->loadTemplate('dashboard/home', $data);
     }
+
+    public function meals()
+    {
+        $data = array();
+
+        $this->loadTemplate('dashboard/meals', $data);
+    }
+
+    public function foods()
+    {
+        $data = array();
+
+        $this->loadTemplate('dashboard/foods', $data);
+    }
+
+    public function config()
+    {
+        $data = array();
+
+        $this->loadTemplate('dashboard/config', $data);
+    }
 }

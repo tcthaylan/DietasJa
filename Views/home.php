@@ -46,9 +46,9 @@
     <section class="banner">
         <div class="container">
             <header class="banner-text">
-                <h1>Tempor aliquip enim proident.</h1>
+                <h1>Seu Gerenciador de Dietas</h1>
                 <p class="lead">Um estilo de vida saudável começa com o que você come.</p>
-                <a href="" class="btnBanner">Button</a>
+                <a href="" class="btnBanner">Sobre</a>
             </header>
         </div>
     </section>
@@ -78,11 +78,11 @@
                             </li>
                             <li>
                                 <i class="fas fa-asterisk"></i>
-                                <p>Mais de x alimentos cadastrados</p>
+                                <p>Mais de 10.000 alimentos cadastrados</p>
                             </li>
                             <li>
                                 <i class="fas fa-asterisk"></i> 
-                                <p>Calculo de calorias</p>
+                                <p>Lista de refeições com horários</p>
                             </li>
                             <li>
                                 <i class="fas fa-asterisk"></i> 
@@ -109,35 +109,35 @@
                         <li class="howItWorks-list-item">
                             <i class="far fa-check-circle"></i>
                             <div>
-                                <h4>1. Private Key</h4>
+                                <h4>1. Faça o login</h4>
                                 <p>Dolore eiusmod occaecat eiusmod labore magna. Ut consectetur ut et et velit nulla eiusmod velit pariatur in veniam.</p>
                             </div>
                         </li>
                         <li class="howItWorks-list-item">
                             <i class="far fa-check-circle"></i>
                             <div>
-                                <h4>2. Private Key</h4>
+                                <h4>2. Defina seu objetivo</h4>
                                 <p>Dolore eiusmod occaecat eiusmod labore magna. Ut consectetur ut et et velit nulla eiusmod velit pariatur in veniam.</p>
                             </div>
                         </li>
                         <li class="howItWorks-list-item">
                             <i class="far fa-check-circle"></i>
                             <div>
-                                <h4>3. Private Key</h4>
+                                <h4>3. Crie suas refeições</h4>
                                 <p>Dolore eiusmod occaecat eiusmod labore magna. Ut consectetur ut et et velit nulla eiusmod velit pariatur in veniam.</p>
                             </div>
                         </li>
                         <li class="howItWorks-list-item">
                             <i class="far fa-check-circle"></i>
                             <div>
-                                <h4>4. Private Key</h4>
+                                <h4>4. Insira alimentos nas refeições</h4>
                                 <p>Dolore eiusmod occaecat eiusmod labore magna. Ut consectetur ut et et velit nulla eiusmod velit pariatur in veniam.</p>
                             </div>
                         </li>
                         <li class="howItWorks-list-item">
                             <i class="far fa-check-circle"></i>
                             <div>
-                                <h4>5. Private Key</h4>
+                                <h4>5. Gerencie sua dieta</h4>
                                 <p>Dolore eiusmod occaecat eiusmod labore magna. Ut consectetur ut et et velit nulla eiusmod velit pariatur in veniam.</p>
                             </div>
                         </li>
@@ -152,7 +152,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 appMobile-header">
-                    <h2>Mollit dolor enim reprehenderit.</h2>
+                    <h2>Disponóvel para android e ios.</h2>
                     <span class="lineTitle"></span>
                     <p class="lead">Nostrud officia officia duis enim minim. Minim fugiat laborum consectetur id ad commodo occaecat voluptate commodo velit amet.</p>
                 </div>

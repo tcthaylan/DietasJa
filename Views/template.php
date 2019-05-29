@@ -6,11 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?php echo BASE_URL.'vendor/twbs/bootstrap/dist/css/bootstrap.min.css' ?>">
 	<link rel="stylesheet" href="<?php echo BASE_URL.'assets/css/reset.css' ?>">
 	<link rel="stylesheet" href="<?php echo BASE_URL.'assets/css/template.css' ?>">
 	<link rel="stylesheet" href="<?php echo BASE_URL.'assets/css/dashboard/home.css' ?>">
+	<link rel="stylesheet" href="<?php echo BASE_URL.'assets/css/dashboard/foods.css' ?>">
+
 </head>
 <body>
 	<nav class="navDashboard">
@@ -19,6 +22,8 @@
 			<span class="btnMenu-line"></span>
 			<span class="btnMenu-line"></span>
 		</div>
+
+		<a href="" class="btnExit">Sair</a>
 
 		<div id="leftMenu" class="leftMenu">
 			
@@ -31,16 +36,16 @@
 
 			<ul class="leftMenu-list">
 				<li class="leftMenu-list-item">
-					<a href="">Home</a>
+					<a href="<?php echo BASE_URL.'Dashboard' ?>">Home</a>
 				</li>
 				<li class="leftMenu-list-item">
-					<a href="">Refeições</a>
+					<a href="<?php echo BASE_URL.'Dashboard/meals' ?>">Refeições</a>
 				</li>
 				<li class="leftMenu-list-item">
-					<a href="">Alimentos</a>
+					<a href="<?php echo BASE_URL.'Dashboard/foods' ?>">Alimentos</a>
 				</li>
 				<li class="leftMenu-list-item">
-					<a href="">Configurações</a>
+					<a href="<?php echo BASE_URL.'Dashboard/config' ?>">Configurações</a>
 				</li>
 			</ul>
 		</div>

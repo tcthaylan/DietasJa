@@ -17,9 +17,7 @@
             <h3>DietasJá</h3>
         </div>
 
-        <div class="alert alert-danger">
-            Email e/ou senha incorreto(s).
-        </div>
+        
 
         <form method="POST" class="loginContent-form">
             <div class="form-group">
